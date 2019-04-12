@@ -31,6 +31,7 @@
 		B5235C46225F61C000077388 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5235C34225F61BF00077388 /* Montserrat-Bold.ttf */; };
 		B5235C47225F61C000077388 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5235C35225F61C000077388 /* Montserrat-ThinItalic.ttf */; };
 		B5235C48225F61C000077388 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5235C36225F61C000077388 /* Montserrat-Thin.ttf */; };
+		B5235C4A2261172300077388 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5235C492261172300077388 /* LocationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		B5235C34225F61BF00077388 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		B5235C35225F61C000077388 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
 		B5235C36225F61C000077388 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		B5235C492261172300077388 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			children = (
 				B5235C0D225F591300077388 /* BeginRunVC.swift */,
 				B5235C0F225F591300077388 /* RunLogVC.swift */,
+				B5235C492261172300077388 /* LocationVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				B5235C10225F591300077388 /* RunLogVC.swift in Sources */,
 				B5235C0C225F591300077388 /* AppDelegate.swift in Sources */,
+				B5235C4A2261172300077388 /* LocationVC.swift in Sources */,
 				B5235C0E225F591300077388 /* BeginRunVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
